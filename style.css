@@ -8,6 +8,7 @@ body {
     background-size: 100% auto;
     font-size: 14px;
     font-family: Poppins, sans-serif;
+    background: linear-gradient(90deg, #EE5514 -48.86%, rgba(238, 85, 20, 0.1) 23.88%);
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -15,6 +16,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 img {
+    mix-blend-mode: multiply;
     display: block;
     max-width: 100%;
 }
@@ -107,3 +109,60 @@ img {
     line-height: 160%;
     color: #FFFFFF;
 }
+/*intro*/
+.introBlock {
+
+}
+.introWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.introText {
+
+}
+.introTitle {
+    font-family: Source Serif Pro,sans-serif;
+    font-weight: 600;
+    font-size: 61px;
+    color: #1A0A03;
+    line-height: 160%;
+}
+.introTitle span {
+    font-family: Source Serif Pro,sans-serif;
+    font-weight: 600;
+    font-size: 61px;
+    color: #EE5514;
+    line-height: 160%;
+}
+.introSubtitle {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1A0A03;
+    opacity: 0.7;
+}
+.introBox{
+    display: flex;
+
+}
+.introBorder {
+    border: 11px solid #EE5514;
+    opacity: 0.4;
+}
+
+
+.introImg {
+    display: block;
+}
+.introArrow {
+    width: 70px;
+    height: 70px;
+    background-color:rgba(238, 85, 20, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
