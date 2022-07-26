@@ -26,6 +26,7 @@ img {
     margin: 0 auto;
 }
 
+
 /*header*/
 .header {
     padding-top: 56px;
@@ -37,6 +38,7 @@ img {
 }
 
 .headerLogo{
+    padding-left: 32px;
     padding-bottom: 38px;
 }
 .imgLogo {
@@ -113,12 +115,13 @@ img {
 .introBlock {
 
 }
+
 .introWrapper {
     display: flex;
     justify-content: space-between;
 }
 .introText {
-
+    margin-top: 120px;
 }
 .introTitle {
     font-family: Source Serif Pro,sans-serif;
@@ -147,15 +150,17 @@ img {
 
 }
 .introBorder {
-    border: 11px solid #EE5514;
-    opacity: 0.4;
+
 }
 
 
 .introImg {
+   /* outline: 11px solid #ff822f;*/
     display: block;
 }
+
 .introArrow {
+    margin-top: 147px;
     width: 70px;
     height: 70px;
     background-color:rgba(238, 85, 20, 0.1);
