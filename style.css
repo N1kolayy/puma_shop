@@ -126,14 +126,14 @@ img {
 .introTitle {
     font-family: Source Serif Pro,sans-serif;
     font-weight: 600;
-    font-size: 61px;
+    font-size: 51px;
     color: #1A0A03;
     line-height: 160%;
 }
 .introTitle span {
     font-family: Source Serif Pro,sans-serif;
     font-weight: 600;
-    font-size: 61px;
+    font-size: 51px;
     color: #EE5514;
     line-height: 160%;
 }
@@ -146,6 +146,7 @@ img {
     opacity: 0.7;
 }
 .introBox{
+    margin-top: 32px;
     display: flex;
 
 }
@@ -171,3 +172,61 @@ img {
 
 }
 
+/*info*/
+.info {
+
+}
+
+.infoWrapper {
+    max-width: 912px;
+    margin-top: 80px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 14px rgba(26, 10, 3, 0.05);
+    border-radius: 5px;
+}
+.infoSection {
+    display: flex;
+    padding: 30px 55px;
+}
+.infoBlock {
+    border-right: 1px solid #EE5514;
+    padding: 0 40px;
+}
+.aboutInfo {
+    display: flex;
+}
+.infoTitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1A0A03;
+    opacity: 0.7;
+}
+.infoSubtitle {
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #1A0A03;
+}
+.infoImg {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.infoBtn {
+    margin-left: 40px;
+    display: inline-flex;
+}
+.infoBtn a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #EE5514;
+    border-radius: 5px;
+    transition: background-color .2s ease-in;
+}
+.infoBtn a:hover {
+    background-color: #dc3d12;
+}
