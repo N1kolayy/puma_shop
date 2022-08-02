@@ -16,11 +16,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-/*img {
-    !*mix-blend-mode: multiply;*!
-   !* display: block;
-    max-width: 100%;*!
-}*/
+img {
+    mix-blend-mode: multiply;
+    display: block;
+    /*max-width: 100%;*/
+}
 .container {
     max-width: 1140px;
     width: 100%;
@@ -121,6 +121,9 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 160%;
     color: #FFFFFF;
 }
+.headerBtn:hover {
+    background-color: red;
+}
 
 /*intro*/
 .introBlock {
@@ -173,10 +176,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 }
 
-.sliderOne {
+.sliderWrapper {
     position: relative;
 }
-.sliderLine {
+.slide {
   /*  mix-blend-mode: multiply;
     position: relative;
     display: flex;
@@ -190,6 +193,11 @@ h1, h2, h3, h4, h5, h6, p {
     position: absolute;
     width: 598px;
     height: 400px;
+    display: none;
+}
+.slide.active {
+    display: block;
+
 }
 
 /*.introImg {
@@ -210,7 +218,11 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .2s ease-in;
 
+}
+.introArrow:hover {
+    background-color: rgba(62,113,98,0.31);
 }
 
 /*info*/
@@ -290,4 +302,150 @@ h1, h2, h3, h4, h5, h6, p {
 
 .infoBtn a:hover {
     background-color: #dc3d12;
+}
+/*introVideo*/
+.introVideo {
+    margin-top: 133px;
+    margin-bottom: 140px;
+}
+.introContainer {
+    margin: 0 auto;
+    max-width: 1190px;
+}
+.videoWrapper {
+    display: flex;
+}
+.textBlock {
+
+}
+.videoClick {
+    font-family: Source Serif Pro,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #EE5514;
+}
+.videoClick a {
+    text-decoration: none;
+    color: #EE5514;
+    transition: .2s ease-in;
+}
+.videoClick a:hover {
+    color: #c51a2f;
+}
+
+.introVideoTitle {
+    margin-top: 10px;
+    font-family: 'Source Serif Pro', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    color: #1A0A03;
+
+}
+.introVideoSubtitle {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1A0A03;
+    opacity: 0.7;
+}
+
+.imgVideo {
+    display: block;
+}
+/*featureSection*/
+.featureSection {
+    margin-bottom: 140px;
+}
+.featureWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.featureText {
+    font-family: 'Source Serif Pro',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #EE5514;
+}
+.featureTitle {
+    margin-top: 10px;
+    font-family: 'Source Serif Pro',sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    color: #1A0A03;
+}
+.featureBlock {
+    margin-top: 60px;
+    display: flex;
+}
+.featureColumn {
+    width: 360px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 30px rgba(26, 10, 3, 0.05);
+    border-radius: 10px;
+}
+.featureColumnFlexible {
+    margin: 0 30px;
+    width: 360px;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 30px rgba(26, 10, 3, 0.05);
+    border-radius: 10px;
+    background-color: rgba(238, 85, 20, 0.1);
+}
+.featureImg {
+    margin-top: 56px;
+    background-color: rgba(18, 101, 225, 0.1);
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.columnTitle {
+    padding-top: 38px;
+    font-family: 'Source Serif Pro',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #1A0A03;
+}
+.columnSubtitle {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    color: #1A0A03;
+    opacity: 0.7;
+}
+.readMore {
+    padding-top: 20px;
+}
+.readMore a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #EE5514;
+    text-decoration: none;
+}
+.readMore a:hover {
+    color: #c51a2f;
 }
